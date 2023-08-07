@@ -15,7 +15,7 @@
     model.isValidToken = false;
   }
 
-  // 모델에 접근하는 권한을 확실하게 하기
+  // ✨ 안전하게 모델에 접근하는 권한을 확실하게 하기
   function setLogin(bool) {
     model.isLogin = bool;
   }
